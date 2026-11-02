@@ -12,7 +12,7 @@ export default function Dashboard() {
         us.
       </p>
       <a
-        href="https://github.com/CHASE3020/yieldstream-app/issues"
+        href="https://github.com/yieldstream-org/yieldstream-app/issues"
         className="rounded-lg bg-accent px-5 py-2.5 font-semibold text-ink hover:bg-accent-dim"
       >
         View open issues

@@ -60,7 +60,7 @@ export default function Home() {
         </nav>
         <div className="flex gap-3 text-sm">
           <Link
-            href="https://github.com/CHASE3020/yieldstream-contract"
+            href="https://github.com/yieldstream-org/yieldstream-contract"
             className="rounded-md border border-slate-700 px-3 py-1.5 text-slate-300 hover:border-accent hover:text-accent"
           >
             GitHub
@@ -201,14 +201,14 @@ export default function Home() {
           YieldStream is maintained as a three-repo system: the{" "}
           <a
             className="text-accent underline-offset-4 hover:underline"
-            href="https://github.com/CHASE3020/yieldstream-contract"
+            href="https://github.com/yieldstream-org/yieldstream-contract"
           >
             Soroban contract
           </a>
           , this app, and a{" "}
           <a
             className="text-accent underline-offset-4 hover:underline"
-            href="https://github.com/CHASE3020/yieldstream-sdk"
+            href="https://github.com/yieldstream-org/yieldstream-sdk"
           >
             TypeScript SDK
           </a>
@@ -216,7 +216,7 @@ export default function Home() {
           ship it, earn on the Drips Wave.
         </p>
         <a
-          href="https://github.com/CHASE3020/yieldstream-contract/issues"
+          href="https://github.com/yieldstream-org/yieldstream-contract/issues"
           className="mt-6 inline-block rounded-lg border border-accent px-5 py-2.5 font-semibold text-accent transition hover:bg-accent hover:text-ink"
         >
           Browse the issue backlog

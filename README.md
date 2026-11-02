@@ -1,7 +1,7 @@
 # YieldStream App
 
 Web interface for the [YieldStream
-protocol](https://github.com/CHASE3020/yieldstream-contract) — a
+protocol](https://github.com/yieldstream-org/yieldstream-contract) — a
 multi-tenant Merkle distributor on Stellar/Soroban.
 
 Two surfaces:
@@ -12,7 +12,7 @@ Two surfaces:
 
 **Status:** the landing page is live-built here; the dashboard is being
 assembled from the tiered issue backlog and consumes
-[`@yieldstream/sdk`](https://github.com/CHASE3020/yieldstream-sdk) once its
+[`@yieldstream/sdk`](https://github.com/yieldstream-org/yieldstream-sdk) once its
 hashing core lands.
 
 ## Development
