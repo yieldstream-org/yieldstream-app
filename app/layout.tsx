@@ -6,6 +6,19 @@ export const metadata: Metadata = {
   description:
     "Distribute airdrops, yield, and contributor payouts to thousands of wallets on Stellar with one on-chain commitment and zero per-recipient transactions.",
   applicationName: "YieldStream",
+  openGraph: {
+    title: "YieldStream — Merkle distribution protocol for Stellar",
+    description:
+      "Airdrop to thousands. Commit 32 bytes. Multi-tenant Merkle distributor on Soroban — live on testnet.",
+    type: "website",
+    siteName: "YieldStream",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "YieldStream — Merkle distribution protocol for Stellar",
+    description:
+      "Airdrop to thousands. Commit 32 bytes. Multi-tenant Merkle distributor on Soroban — live on testnet.",
+  },
 };
 
 export const viewport: Viewport = {

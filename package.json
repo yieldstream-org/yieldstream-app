@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "gen:og": "node scripts/gen-og.js app/opengraph-image.png && node scripts/gen-og.js app/twitter-image.png"
   },
   "dependencies": {
     "next": "^14.2.15",
@@ -19,6 +20,7 @@
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.5.4"
   }

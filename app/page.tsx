@@ -36,7 +36,12 @@ const STATS = [
   { value: "32 bytes", label: "committed on-chain per campaign" },
   { value: "log₂N", label: "proof size — 14 hashes for 10,000 recipients" },
   { value: "21", label: "contract tests + pinned vectors" },
-  { value: "LIVE", label: "deployed & audited on testnet" },
+  { value: "LIVE", label: "full lifecycle verified on testnet" },
+];
+
+const LIVE_TXS = [
+  ["campaign created", "root committed, 120,000 units escrowed", "dc347bc74e98d042c48f85708aad647847d37febbe2b1093fa79851afbf7447b"],
+  ["recipient claimed", "inclusion proof verified, paid out", "0a2b6d2de6eeda241beab79fdaee23970d251c6545f8de33f1afd2ece03f2306"],
 ];
 
 const INTERFACE = [
@@ -129,6 +134,47 @@ export default function Home() {
             <p className="mt-1 text-xs leading-snug text-slate-400">{s.label}</p>
           </div>
         ))}
+      </section>
+
+      <section className="mt-10 rounded-xl border border-accent/20 bg-slate-900/70 p-6">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <p className="font-mono text-xs uppercase tracking-[0.3em] text-accent">
+              Live on testnet
+            </p>
+            <p className="mt-2 font-mono text-sm text-slate-300">
+              CC25WDHZ7SQC2UMZJHIPYM2U5ROYFXVDZMP3THMIL3IJY6HOCGGX2FPG
+            </p>
+          </div>
+          <a
+            href="https://stellar.expert/explorer/testnet/contract/CC25WDHZ7SQC2UMZJHIPYM2U5ROYFXVDZMP3THMIL3IJY6HOCGGX2FPG"
+            className="rounded-lg border border-accent px-4 py-2 font-semibold text-accent transition hover:bg-accent hover:text-ink"
+          >
+            Open in explorer
+          </a>
+        </div>
+        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+          {LIVE_TXS.map(([title, body, hash]) => (
+            <li
+              key={hash}
+              className="rounded-lg border border-slate-800 bg-slate-950/60 px-4 py-3"
+            >
+              <p className="text-sm font-semibold text-white">{title}</p>
+              <p className="mt-0.5 text-xs text-slate-400">{body}</p>
+              <a
+                href={`https://stellar.expert/explorer/testnet/tx/${hash}`}
+                className="mt-1 inline-block font-mono text-xs text-accent underline-offset-4 hover:underline"
+              >
+                {hash.slice(0, 12)}…
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-4 text-xs text-slate-500">
+          Full lifecycle verified on-chain: two funded campaigns, proof-checked
+          claims, double-claim rejected, cancel → sweep refunded the treasury
+          to the unit.
+        </p>
       </section>
 
       <section id="how" className="mt-24 scroll-mt-16">
