@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Protocol mechanics — YieldStream docs",
+  title: "Protocol mechanics",
   description:
     "Leaf and node hashing, proof verification, campaign lifecycle, storage layout and TTL policy.",
 };

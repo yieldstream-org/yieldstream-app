@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Developer guide — YieldStream docs",
+  title: "Developer guide",
   description:
     "Local toolchain, contract addresses, calling the distributor from TypeScript, the leaf format, and the test vectors that define correctness.",
 };

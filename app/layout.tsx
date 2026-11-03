@@ -2,7 +2,11 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "YieldStream — Merkle distribution protocol for Stellar",
+  metadataBase: new URL("https://yieldstream-protocol.vercel.app"),
+  title: {
+    default: "YieldStream — Merkle distribution protocol for Stellar",
+    template: "%s — YieldStream docs",
+  },
   description:
     "Distribute airdrops, yield, and contributor payouts to thousands of wallets on Stellar with one on-chain commitment and zero per-recipient transactions.",
   applicationName: "YieldStream",
@@ -12,6 +16,7 @@ export const metadata: Metadata = {
       "Airdrop to thousands. Commit 32 bytes. Multi-tenant Merkle distributor on Soroban — live on testnet.",
     type: "website",
     siteName: "YieldStream",
+    url: "https://yieldstream-protocol.vercel.app",
   },
   twitter: {
     card: "summary_large_image",

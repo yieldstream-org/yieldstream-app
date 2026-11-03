@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Issuer guide — YieldStream docs",
+  title: "Issuer guide",
   description:
     "Run a distribution campaign end to end: build the list, commit the root, fund escrow, let recipients claim, recover what is left.",
 };

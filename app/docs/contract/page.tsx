@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contract reference — YieldStream docs",
+  title: "Contract reference",
   description:
     "Every public function on the YieldStream distributor: parameters, return types, auth requirements, events and error codes.",
 };

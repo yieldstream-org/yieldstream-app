@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contributing — YieldStream docs",
+  title: "Contributing",
   description:
     "How to pick up work across the three repos, what each tier is worth, and the standard a PR has to meet.",
 };
@@ -148,6 +148,16 @@ npm run build     # app`}</pre>
         </a>
         . The contract is unaudited; if you are a security reviewer, that is the
         most valuable contribution of all and it is not on the backlog yet.
+      </p>
+
+      <h2>Conduct</h2>
+      <p>
+        Every repo in the org is covered by the same{" "}
+        <a href="https://github.com/yieldstream-org/yieldstream-contract/blob/main/CODE_OF_CONDUCT.md">
+          code of conduct
+        </a>
+        : reasons over verdicts, critique the code and not the person, and report
+        concerns privately so you never have to confront anyone to resolve them.
       </p>
     </>
   );
