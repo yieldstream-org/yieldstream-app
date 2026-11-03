@@ -6,6 +6,7 @@ const NAV = [
   { href: "#how", label: "How it works" },
   { href: "#why", label: "Why it's cheap" },
   { href: "#interface", label: "Interface" },
+  { href: "/docs", label: "Docs" },
   { href: "#build", label: "Contribute" },
 ];
 
@@ -211,7 +212,7 @@ export default function Home() {
             ],
             [
               "List never touches the ledger",
-              "Recipients stay off-chain until they claim. A 10,000-person campaign stores one root and a claim bitmap — not 10,000 records.",
+              "Recipients stay off-chain until they claim: the ledger holds one root, not the roster. Packing claimed state into ~40 bitmap entries for 10,000 claims is open backlog work.",
             ],
             [
               "Nothing is stranded",
