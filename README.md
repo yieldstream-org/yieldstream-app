@@ -7,7 +7,7 @@
 [![Deployed](https://img.shields.io/badge/live-yieldstream--protocol.vercel.app-5eead4)](https://yieldstream-protocol.vercel.app)
 [![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)
 
-[Contract](https://github.com/yieldstream-org/yieldstream-contract) · [SDK](https://github.com/yieldstream-org/yieldstream-sdk) · [Issues](https://github.com/yieldstream-org/yieldstream-app/issues)
+[Contract](https://github.com/yieldstream-org/yieldstream-contract) · [SDK](https://github.com/yieldstream-org/yieldstream-sdk) · [Protocol Docs](https://yieldstream-protocol.vercel.app/docs) · [Issues](https://github.com/yieldstream-org/yieldstream-app/issues)
 
 </div>
 
@@ -46,6 +46,9 @@ through the vendored test vectors in the SDK repo.
 
 ## Documentation
 
+- [Protocol documentation site](https://yieldstream-protocol.vercel.app/docs)
+  — mechanics, contract reference, issuer and recipient guides, developer setup.
+  Source lives in this repo under [`app/docs/`](app/docs).
 - [Contributing guide](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
 - [Open issues](https://github.com/yieldstream-org/yieldstream-app/issues)
