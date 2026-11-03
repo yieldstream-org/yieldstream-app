@@ -50,6 +50,7 @@ through the vendored test vectors in the SDK repo.
   — mechanics, contract reference, issuer and recipient guides, developer setup.
   Source lives in this repo under [`app/docs/`](app/docs).
 - [Contributing guide](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
 - [Security policy](SECURITY.md)
 - [Open issues](https://github.com/yieldstream-org/yieldstream-app/issues)
 

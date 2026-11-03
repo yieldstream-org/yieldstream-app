@@ -59,3 +59,9 @@ These are the two CI jobs, and they are required status checks on `main`.
 
 Fill in what changed, which issue it closes, and how you verified it. Screenshots
 for visual changes. Expect review within five days; ping if it stalls longer.
+
+## Code of conduct
+
+Participation in this repository and every other `yieldstream-org`
+space is governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Reporting
+concerns is described there.
